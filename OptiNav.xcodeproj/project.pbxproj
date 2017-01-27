@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		067E25A21E3AA5A1001CF495 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E25A11E3AA5A1001CF495 /* main.m */; };
+		067E25A51E3AA5A1001CF495 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 067E25A41E3AA5A1001CF495 /* AppDelegate.m */; };
+		067E25A81E3AA5A1001CF495 /* ViewController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 067E25A71E3AA5A1001CF495 /* ViewController.mm */; };
+		067E25AB1E3AA5A1001CF495 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067E25A91E3AA5A1001CF495 /* Main.storyboard */; };
+		067E25AD1E3AA5A1001CF495 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 067E25AC1E3AA5A1001CF495 /* Assets.xcassets */; };
+		067E25BC1E3ABC9A001CF495 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 067E25BA1E3ABC9A001CF495 /* LaunchScreen.storyboard */; };
+		E856CE178D0175E6FA554DE9 /* libPods-OptiNav.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DC7AAB2D1E34D09C59BAAFB1 /* libPods-OptiNav.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		067E259D1E3AA5A1001CF495 /* OptiNav.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OptiNav.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		067E25A11E3AA5A1001CF495 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		067E25A31E3AA5A1001CF495 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		067E25A41E3AA5A1001CF495 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		067E25A61E3AA5A1001CF495 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		067E25A71E3AA5A1001CF495 /* ViewController.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ViewController.mm; sourceTree = "<group>"; };
+		067E25AA1E3AA5A1001CF495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		067E25AC1E3AA5A1001CF495 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		067E25B11E3AA5A1001CF495 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		067E25BB1E3ABC9A001CF495 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7D2CEE0A721DEC78B2D98906 /* Pods-OptiNav.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptiNav.release.xcconfig"; path = "Pods/Target Support Files/Pods-OptiNav/Pods-OptiNav.release.xcconfig"; sourceTree = "<group>"; };
+		98A7238E3A3EDC9F74803A14 /* Pods-OptiNav.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OptiNav.debug.xcconfig"; path = "Pods/Target Support Files/Pods-OptiNav/Pods-OptiNav.debug.xcconfig"; sourceTree = "<group>"; };
+		DC7AAB2D1E34D09C59BAAFB1 /* libPods-OptiNav.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-OptiNav.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		067E259A1E3AA5A1001CF495 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E856CE178D0175E6FA554DE9 /* libPods-OptiNav.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		067E25941E3AA5A1001CF495 = {
+			isa = PBXGroup;
+			children = (
+				067E259F1E3AA5A1001CF495 /* OptiNav */,
+				067E259E1E3AA5A1001CF495 /* Products */,
+				34BDB8BA73854143BAD83E21 /* Pods */,
+				6948A467ABF60780CD6450A3 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		067E259E1E3AA5A1001CF495 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				067E259D1E3AA5A1001CF495 /* OptiNav.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		067E259F1E3AA5A1001CF495 /* OptiNav */ = {
+			isa = PBXGroup;
+			children = (
+				067E25A31E3AA5A1001CF495 /* AppDelegate.h */,
+				067E25A41E3AA5A1001CF495 /* AppDelegate.m */,
+				067E25A61E3AA5A1001CF495 /* ViewController.h */,
+				067E25A71E3AA5A1001CF495 /* ViewController.mm */,
+				067E25A91E3AA5A1001CF495 /* Main.storyboard */,
+				067E25BA1E3ABC9A001CF495 /* LaunchScreen.storyboard */,
+				067E25AC1E3AA5A1001CF495 /* Assets.xcassets */,
+				067E25B11E3AA5A1001CF495 /* Info.plist */,
+				067E25A01E3AA5A1001CF495 /* Supporting Files */,
+			);
+			path = OptiNav;
+			sourceTree = "<group>";
+		};
+		067E25A01E3AA5A1001CF495 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				067E25A11E3AA5A1001CF495 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		34BDB8BA73854143BAD83E21 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				98A7238E3A3EDC9F74803A14 /* Pods-OptiNav.debug.xcconfig */,
+				7D2CEE0A721DEC78B2D98906 /* Pods-OptiNav.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		6948A467ABF60780CD6450A3 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				DC7AAB2D1E34D09C59BAAFB1 /* libPods-OptiNav.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		067E259C1E3AA5A1001CF495 /* OptiNav */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 067E25B41E3AA5A1001CF495 /* Build configuration list for PBXNativeTarget "OptiNav" */;
+			buildPhases = (
+				6AFEAD2DB253560BE8965B2A /* [CP] Check Pods Manifest.lock */,
+				067E25991E3AA5A1001CF495 /* Sources */,
+				067E259A1E3AA5A1001CF495 /* Frameworks */,
+				067E259B1E3AA5A1001CF495 /* Resources */,
+				633A75E39A2D564503E1E3C3 /* [CP] Embed Pods Frameworks */,
+				6D3FC81592DE911ED7DBCF8E /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OptiNav;
+			productName = OptiNav;
+			productReference = 067E259D1E3AA5A1001CF495 /* OptiNav.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		067E25951E3AA5A1001CF495 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Dragan Ahmetovic";
+				TargetAttributes = {
+					067E259C1E3AA5A1001CF495 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AHMWM8CN2J;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 067E25981E3AA5A1001CF495 /* Build configuration list for PBXProject "OptiNav" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 067E25941E3AA5A1001CF495;
+			productRefGroup = 067E259E1E3AA5A1001CF495 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				067E259C1E3AA5A1001CF495 /* OptiNav */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		067E259B1E3AA5A1001CF495 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067E25BC1E3ABC9A001CF495 /* LaunchScreen.storyboard in Resources */,
+				067E25AD1E3AA5A1001CF495 /* Assets.xcassets in Resources */,
+				067E25AB1E3AA5A1001CF495 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		633A75E39A2D564503E1E3C3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptiNav/Pods-OptiNav-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6AFEAD2DB253560BE8965B2A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		6D3FC81592DE911ED7DBCF8E /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-OptiNav/Pods-OptiNav-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		067E25991E3AA5A1001CF495 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				067E25A81E3AA5A1001CF495 /* ViewController.mm in Sources */,
+				067E25A51E3AA5A1001CF495 /* AppDelegate.m in Sources */,
+				067E25A21E3AA5A1001CF495 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		067E25A91E3AA5A1001CF495 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067E25AA1E3AA5A1001CF495 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		067E25BA1E3ABC9A001CF495 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				067E25BB1E3ABC9A001CF495 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		067E25B21E3AA5A1001CF495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		067E25B31E3AA5A1001CF495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		067E25B51E3AA5A1001CF495 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 98A7238E3A3EDC9F74803A14 /* Pods-OptiNav.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AHMWM8CN2J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = OptiNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmu.navcog.OptiNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		067E25B61E3AA5A1001CF495 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7D2CEE0A721DEC78B2D98906 /* Pods-OptiNav.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = AHMWM8CN2J;
+				ENABLE_BITCODE = NO;
+				INFOPLIST_FILE = OptiNav/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = cmu.navcog.OptiNav;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		067E25981E3AA5A1001CF495 /* Build configuration list for PBXProject "OptiNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067E25B21E3AA5A1001CF495 /* Debug */,
+				067E25B31E3AA5A1001CF495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		067E25B41E3AA5A1001CF495 /* Build configuration list for PBXNativeTarget "OptiNav" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				067E25B51E3AA5A1001CF495 /* Debug */,
+				067E25B61E3AA5A1001CF495 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 067E25951E3AA5A1001CF495 /* Project object */;
+}
